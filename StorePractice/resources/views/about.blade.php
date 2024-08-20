@@ -1,1 +1,4 @@
-<div><h1>Hello There!</h1></div>
+<x-nav>
+    <h1>Hello About</h1>
+</x-nav>
+

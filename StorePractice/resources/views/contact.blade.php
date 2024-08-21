@@ -1,4 +1,4 @@
-<x-nav>
-    <h1>Hello Contact</h1>
-</x-nav>
+<x-layout>
+    
+</x-layout>
 

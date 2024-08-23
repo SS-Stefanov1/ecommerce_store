@@ -23,7 +23,7 @@
                             <div>English</div>
                             <span class="arrow_carrot-down"></span>
                             <ul>
-                                <li><a href="#">Spanis</a></li>
+                                <li><a href="#">Bulgarian</a></li>
                                 <li><a href="#">English</a></li>
                             </ul>
                         </div>
@@ -43,7 +43,15 @@
                 </div>
             </div>
 
-            <x-nav></x-nav>
+            <nav class="header__menu">
+                <ul>
+                    <x-nav-link href="{{ url('/') }}">Home</x-nav-link>
+                    <x-nav-link href="{{ url('/shop') }}">Shop</x-nav-link>
+                    <x-nav-link href="{{ url('/cart') }}">Cart</x-nav-link>
+                    <x-nav-link href="{{ url('/checkout') }}">Check Out</x-nav-link>
+                    <x-nav-link href="{{ url('/contact') }}">Contact</x-nav-link>
+                </ul>
+            </nav>
 
             <div class="col-lg-3">
                 <div class="header__cart">

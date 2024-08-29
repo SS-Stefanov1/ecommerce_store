@@ -14,8 +14,8 @@ Route::get('/cart',     fn() => view('cart'));
 Route::get('/checkout', fn() => view('checkout'));
 Route::get('/shop', function () {
         $products = Products::all();
-        dd($products);
-        //view('shop-grid')
+        
+        return view('shop-grid');
     }
 );
 
